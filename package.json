@@ -1,0 +1,22 @@
+{
+  "name": "no-broken-dependency-action-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hata6502/no-broken-dependency-action-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hata6502/no-broken-dependency-action-test/issues"
+  },
+  "homepage": "https://github.com/hata6502/no-broken-dependency-action-test#readme",
+  "dependencies": {
+    "clsx": "^1.1.0"
+  }
+}
