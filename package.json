@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/hata6502/no-broken-dependency-action-test#readme",
   "dependencies": {
+    "classnames": "^2.3.0",
     "clsx": "^1.1.0"
   }
 }
