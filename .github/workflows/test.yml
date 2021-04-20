@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      # Latest release: hata6502/no-broken-dependency-action@v1
+      # Latest release: hata6502/no-broken-dependency-action@v2
       - uses: hata6502/no-broken-dependency-action@main
         with:
           default-branch: master
