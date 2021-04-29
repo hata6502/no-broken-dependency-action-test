@@ -6,7 +6,8 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      # Latest release: hata6502/no-broken-dependency-action@v3
+      # Latest release: hata6502/no-broken-dependency-action@v4
       - uses: hata6502/no-broken-dependency-action@main
+        # See "inputs" in https://github.com/hata6502/no-broken-dependency-action/blob/main/action.yml
         with:
           default-branch: master
