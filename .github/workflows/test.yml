@@ -5,9 +5,6 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-        with:
-          # All history required.
-          fetch-depth: 0
       # Latest release: hata6502/no-broken-dependency-action@v4
       - uses: hata6502/no-broken-dependency-action@main
         # See "inputs" for option.
